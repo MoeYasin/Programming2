@@ -1,0 +1,23 @@
+Programming Languages are not the same. What are the differences between different Programming Languages?
+
+Like human languages, programming languages really just boil down to different ways to express ideas & actions.
+Some of the differences are between languages are minor. I.e., if you want to display text on the screen, all of these do the same thing in various languages:
+print "Hello Reddit"
+printf "Hello Reddit"
+say "Hello Reddit"
+cout << "Hello Reddit"
+System.out.print("Hello Reddit");
+Why such minor differences? Because languages are written by humans. And humans are human. Which is to say petty at times.
+On the other hand, some of the differences are much larger. For example, one major is something called "memory management."
+Think of yourself a computer for a moment. You're going to be told a lot of different things. More than you can remember in your head. So what do you do?
+You get a notebook. You decide on each line, you'll write down each thing you need to remember. Be it Alice has $100. Or Bob's favorite color is red. Whatever it may be, each thing takes a line. How many things can you remember? That's determined by how many lines in your notebook.
+Of course, after a while some things are no longer needed. The activity that required to remember Alice had $100 ended. So you can erase that line & reuse it.
+Each of those lines is like memory in a computer. Some programming languages require you (the programmer) to explicitly say "I'm done with lines 134 - 150. You can use them for something else." Other languages have ways to figure it out automatically.
+Why not always figure it out automatically? Well, it's expensive. It turns out you need to keep track of a few other things & periodically take time to check if something is used. Maybe that's okay, but it's also possible you're doing something critical -- say running a nuclear power plant or the instructions for a pacemaker -- where it isn't. It's basically comes down to a tradeoff between convenience & performance.
+Which is another major difference between languages: Do you aim to optimize how fast it takes the developer to write a program? Or to optimize how the program uses the physical resources of a machine? (E.g., its CPU, memory, etc.)
+There's lot of other tradeoffs like these. Other tradeoffs are how well does it work with other computers on the network? How well does it let me create a graphical interface? How are unexpected conditions handled?
+And in a nutshell, each language makes a different set of decisions on tradeoffs.
+Which is best for what? Well, that's subjective. Ask 100 different programmers & you'll get 100 different answers.
+For example, my employer tends to 4 primary languages: C++, Java, Go, & Python. C++ is great for problems that need to handle a lot of concurrent activity. (I.e., things that need to "scale.") Think of problems where 100,000 people are sending a request a second. Go is good at these problems too.
+Java is good for when there's complicated business logic. Think of problems like figuring out how much tax you need to charge, which is going to vary not just on the state, but even the city or zip. Python is good when you need to put something together quickly. Think of problems where I have a bunch of data & I need to a one-off analysis to tell me certain characteristic.
+Of course, those are far from the only problems each language solves, but it gives a sense of it.
