@@ -2,11 +2,13 @@ Programming Languages are not the same. What are the differences between differe
 
 Like human languages, programming languages really just boil down to different ways to express ideas & actions.
 Some of the differences are between languages are minor. I.e., if you want to display text on the screen, all of these do the same thing in various languages:
+
 print "Hello Reddit"
 printf "Hello Reddit"
 say "Hello Reddit"
 cout << "Hello Reddit"
 System.out.print("Hello Reddit");
+
 Why such minor differences? Because languages are written by humans. And humans are human. Which is to say petty at times.
 On the other hand, some of the differences are much larger. For example, one major is something called "memory management."
 Think of yourself a computer for a moment. You're going to be told a lot of different things. More than you can remember in your head. So what do you do?
@@ -21,3 +23,31 @@ Which is best for what? Well, that's subjective. Ask 100 different programmers &
 For example, my employer tends to 4 primary languages: C++, Java, Go, & Python. C++ is great for problems that need to handle a lot of concurrent activity. (I.e., things that need to "scale.") Think of problems where 100,000 people are sending a request a second. Go is good at these problems too.
 Java is good for when there's complicated business logic. Think of problems like figuring out how much tax you need to charge, which is going to vary not just on the state, but even the city or zip. Python is good when you need to put something together quickly. Think of problems where I have a bunch of data & I need to a one-off analysis to tell me certain characteristic.
 Of course, those are far from the only problems each language solves, but it gives a sense of it.
+
+How many compilers for C++ ? What are the differences between them? 
+
+
+
+- 7 compilers 
+- A compiler writer then takes that paper document and writes a program that will turn text conforming to the document (i.e. C++ source code) into something that will make a given processor (for example, an x86 processor) do what the paper document said should happen.
+
+
+The differences between compilers are differences in how the writer decided to implement each part of the paper document's instructions, and the hardware that the output is designed to run on.
+
+A compiler that accepts void main(){}
+Edit & Run
+ does not conform to the paper document (the C++ language definition). A good compiler does conform. Many compilers have "extensions" - extra things they will understand and compile that are not in the C++ standard. Some compilers produce output that is less efficient than others. Some compilers are missing features of the C++ language. There is no one true C++ compiler - only interpretations and attempts at meeting the C++ language.
+ 
+ What are the different C++ standards? 
+ 
+ -In the C++ programming language, the C++ Standard Library is a collection of classes and functions, which are written in the core language and part of the C++ ISO Standard itself.[1] The C++ Standard Library provides several generic containers, functions to utilize and manipulate these containers, function objects, generic strings and streams (including interactive and file I/O), support for some language features, and everyday functions for tasks such as finding the square root of a number.
+ 
+What is the difference between IDE and Compiler?
+  
+ -IDE - Integrated Development Environment
+
+So what is an IDE? Well in simple terms, an IDE is the software that helps you write your code, provide code completion, code suggestions and those other neat stuff. Yep that's what you call an IDE. So does Code::Blocks and Dev-C++ do those things? They sure do, therefore, they are IDEs and not Compilers. But you may say "Hey but they let me compile my code too?". Do they really or do they use something else?
+
+Compiler
+
+What is this compiler thing that most people ask about? It too is a software or program. But it doesn't do the neat stuff that the IDE does but it is very very important. Without it your IDE won't be able to produce the runnable programs from the source codes you write. What a compiler does is it takes the source code that you write and converts it to machine code or some other low-level language (such as assembly code)
