@@ -1,0 +1,45 @@
+           
+
+
+
+
+
+
+                                      PROGRAMMING 2
+
+              TOURSIM
+
+
+THE PROGRAMMERS TEAM
+
+              
+
+
+
+
+
+
+
+
+OSAMA  ALJAMAL / 342107144
+Rakan /342107126
+Mohmmad / 342107122
+Mahmmod/ 342107145
+        INTRODUCTION
+
+We are programs student . we made this project using  c++ language and talk about tourism program contains many classes . and it makes the tourism easier to the person who make the reservation.
+Customer will call, visit, with trip details.
+Customer enters his complete itinerary dates and time.
+Booking ticket and maintenance of locations , hotels and other resources is done.   
+
+                   
+
+                   Problems
+Now we live in technology and fast age . 
+Today the user can make reservation 
+And make an appointment and  create all its flight in our project while parson sitting in its own house .and these classes are :
+Countries , date , entertainment, food, insurance, people , places, additional luggage, tourist office , hotels , 
+transportation , and tickets price .
+user will enter customer details and generate itinerary.
+   
+
